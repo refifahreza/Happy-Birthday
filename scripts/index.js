@@ -6,15 +6,15 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
 });
 
 function validateForm() {
-    var username = document.getElementById("TantiknaaAbil").value;
-    var password = document.getElementById("TantiknaaAbil").value;
+    var username = document.getElementById("diancantik").value;
+    var password = document.getElementById("diancantik").value;
 
     //validasi username dan password, username dan password bisa diganti sesuai keinginan
-    if (username === "TantiknaaAbil" && password === "TantiknaaAbil") {
+    if (username === "diancantik" && password === "diancantik") {
         Swal.fire({
             icon: "success",
             title: "Login berhasil!",
-            text: "Selamat datang ayanggg",
+            text: "Selamat datang sayangkuu 😗😗",
             showConfirmButton: false,
             timer: 1500,
         }).then(function() {
